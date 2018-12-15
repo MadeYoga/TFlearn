@@ -1,0 +1,12 @@
+# removes large datasets
+test/
+train/
+
+# removes memo
+*.meta
+*.index
+checkpoint
+*.npy
+# kaggle submission file
+dogsvscats-0.001-6conv-basic.data-00000-of-00001
+sampleSubmission.csv
